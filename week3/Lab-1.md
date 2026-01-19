@@ -60,9 +60,10 @@ Design and describe an application-level protocol to be used between an automati
 
 #### Exercise 7 - Communication Metrics (highly exam relevant)
 
-Problems P6 and P10 (Communication Metrics) in Chap. 1 of Kurose and Ross.
+**Problems P6 and P10 (Communication Metrics) in Chap. 1 of Kurose and Ross.**
 
-This exercise is a good warm-up exercise for the lecture on communication metrics.
+<img width="1263" height="827" alt="image" src="https://github.com/user-attachments/assets/f66c9a64-4a6c-406c-9933-20322a655c45" />
+
 
 #### Exercise 8 - Maven (optional for now - can be done later)
 
