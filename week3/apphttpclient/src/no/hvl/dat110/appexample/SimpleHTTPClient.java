@@ -5,6 +5,9 @@ import java.io.BufferedReader;
 import java.util.Scanner;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URI;
+
+
 
 public class SimpleHTTPClient {
 
@@ -15,7 +18,7 @@ public class SimpleHTTPClient {
 		Scanner scanner = new Scanner(System.in);
 		String url = scanner.nextLine();
 
-		URL urlobj = new URL(url).toURL();
+		URL urlobj = new URI(url).toURL();  
 		HttpURLConnection con = (HttpURLConnection) urlobj.openConnection();
 		con.setRequestMethod("GET");
 
