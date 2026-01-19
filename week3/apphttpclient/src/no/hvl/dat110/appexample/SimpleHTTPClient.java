@@ -15,7 +15,7 @@ public class SimpleHTTPClient {
 		Scanner scanner = new Scanner(System.in);
 		String url = scanner.nextLine();
 
-		URL urlobj = new URL(url);
+		URL urlobj = new URL(url).toURL();
 		HttpURLConnection con = (HttpURLConnection) urlobj.openConnection();
 		con.setRequestMethod("GET");
 
