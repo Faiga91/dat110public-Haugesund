@@ -54,8 +54,8 @@ Test that the tool is working. This can be done by creating a HTTP GET request m
 
 #### Exercise 6 - Communication Protocols (highly exam relevant)
 
-Problem P1 (Protocols) in Chap. 1 of Kurose and Ross.
------
+**Problem P1 (Protocols) in Chap. 1 of Kurose and Ross.**
+
 Design and describe an application-level protocol to be used between an automatic teller machine and a bank’s centralized computer. Your protocol should allow a user’s card and password to be verified, the account balance (which is maintained at the centralized computer) to be queried, and an account withdrawal to be made (that is, money disbursed to the user). Your protocol entities should be able to handle the all-too-common case in which there is not enough money in the account to cover the withdrawal. Specify your protocol by listing the messages exchanged and the action taken by the automatic teller machine or the bank’s centralized computer on transmission and receipt of messages. Sketch the operation of your protocol for the case of a simple withdrawal with no errors, using a diagram similar to that in slide 13 in Lecture 1. Explicitly state the assumptions made by your protocol about the underlying end-to-end transport service.
 
 #### Exercise 7 - Communication Metrics (highly exam relevant)
