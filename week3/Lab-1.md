@@ -56,14 +56,14 @@ Test that the tool is working. This can be done by creating a HTTP GET request m
 
 **Problem P1 (Protocols) in Chap. 1 of Kurose and Ross.**
 
-Design and describe an application-level protocol to be used between an automatic teller machine and a bank’s centralized computer. Your protocol should allow a user’s card and password to be verified, the account balance (which is maintained at the centralized computer) to be queried, and an account withdrawal to be made (that is, money disbursed to the user). Your protocol entities should be able to handle the all-too-common case in which there is not enough money in the account to cover the withdrawal. Specify your protocol by listing the messages exchanged and the action taken by the automatic teller machine or the bank’s centralized computer on transmission and receipt of messages. Sketch the operation of your protocol for the case of a simple withdrawal with no errors, using a diagram similar to that in slide 13 in Lecture 1. Explicitly state the assumptions made by your protocol about the underlying end-to-end transport service.
+Design and describe an application-level protocol to be used between an automatic teller machine and a bank’s centralized computer. Your protocol should allow a user’s card and password to be verified, the account balance (which is maintained at the centralized computer) to be queried, and an account withdrawal to be made (that is, money disbursed to the user). Your protocol entities should be able to handle the all-too-common case in which there is not enough money in the account to cover the withdrawal. Specify your protocol by listing the messages exchanged and the action taken by the automatic teller machine or the bank’s centralized computer on transmission and receipt of messages. Sketch the operation of your protocol for the case of a simple withdrawal with no errors, using a diagram similar to that in slide 13 in F1-introduksjon. Explicitly state the assumptions made by your protocol about the underlying end-to-end transport service.
 
 #### Exercise 7 - Communication Metrics (highly exam relevant)
 
 **Problems P6 and P10 (Communication Metrics) in Chap. 1 of Kurose and Ross.**
 
 <img width="1263" height="827" alt="image" src="https://github.com/user-attachments/assets/f66c9a64-4a6c-406c-9933-20322a655c45" />
-
+P10. Consider the network illustrated in slide 6, F2-Network-Metrics-and-Protocol-Layering. Assume the two hosts on the left of the figure start transmitting packets of 1500 bytes at the same time towards Router B. Suppose the link rates between the hosts and Router A is 4-Mbps. One link has a 6-ms propagation delay and the other has a 2-ms propagation delay. Will queuing delay occur at Router A?
 
 #### Exercise 8 - Maven (optional for now - can be done later)
 
