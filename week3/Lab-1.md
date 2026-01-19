@@ -1,6 +1,6 @@
 ## DAT110: Distributed Systems and Network Technology
 
-### Lab Week 3 - Software tools installation
+### Lab 1- Software tools installation
 
 The first task in the lab-exercises in the first week is to make sure that you have a **working installation** of the software tools that are to be used in the course. In case of problems, contact one of the teaching assistants of the course.
 
