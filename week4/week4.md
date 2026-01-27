@@ -1,6 +1,6 @@
 ## DAT110: Distributed Systems and Network Technology
 
-### Lab Week 4: 20/01 - 24/01
+### Lab 2: 26/01 - 30/01
 
 Note that some of the exercises below are marked as **optional**. These represents more challenging exercises. The first mandatory project will be about socket and network programming in Java. So even if Exercise 6 is optional, it is highly recommended to try to solve it in order to be well-prepared for undertaking the first project.
 
@@ -13,6 +13,8 @@ Assume that we have some data in a datagram that is to be sent from H1 via R1 an
 #### Exercise 2 - Internet protocols and time sequence diagrams
 
 Problem P3 in Chap. 2 of the networking book with the modification that you should draw a [time sequence diagram]( https://en.wikipedia.org/wiki/Sequence_diagram) showing the interaction between the different protocol entities. Time sequence diagrams are widely used in computer science to illustrate the exchange of messages in protocols.
+
+- P3: Assume you open a browser and enter http://yourbusiness.com/ about.html in the address bar. What happens until the webpage is displayed? Provide details about the protocol(s) used and a high-level description of the messages exchanged.
 
 #### Exercise 3 - DNS and HTTP Wireshark
 
