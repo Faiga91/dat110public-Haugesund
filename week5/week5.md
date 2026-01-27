@@ -8,6 +8,10 @@ Note that some of the exercises below are marked as **optional**. These represen
 
 Problems P7 and P8 in Chap. 2 of the networking book.
 
+- P7. Suppose within your Web browser, you click on a link to obtain a Web page. The IP address for the associated URL is not cached in your local host, so a DNS lookup is necessary to obtain the IP address. Suppose that n DNS servers are visited before your host receives the IP address from DNS; the successive visits incur an RTT of RTT1, . . . , RTTn. Further suppose that the Web page associated with the link contains exactly one object, consisting of a large amount of HTML text. Let RTT0 denote the RTT between the local host and the server containing the object. Assuming transmission duration of 0.002 * RTT0 of the object, how much time elapses from when the client clicks on the link until the client receives the object?
+
+- P8. Consider Problem P7 again and assume RTT0 = RTT1 = RTT2 = . . . RTTn = RTT, Furthermore, assume a new HTML file, small enough to have negligible transmission time, which references nine equally small objects on the same server. How much time elapses with  a. non-persistent HTTP with no parallel TCP connections?  b. non-persistent HTTP with the browser configured for 6 parallel connections?  c. persistent HTTP?
+
 #### Exercise 2 - Project work
 
 Complete task 1 and start on task 2 on project 1. The project description can be found via Canvas.
