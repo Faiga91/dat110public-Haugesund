@@ -1,6 +1,6 @@
 ## DAT110: Distributed Systems and Network Technology
 
-### Lab Week 5: 2/02 - 05/02
+### 2/02 - 05/02
 
 Note that some of the exercises below are marked as **optional**. These represent more challenging exercises.
 
