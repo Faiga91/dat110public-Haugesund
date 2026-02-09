@@ -1,6 +1,5 @@
 ## DAT110: Distributed Systems and Network Technology
 
-### Lab Week 6: 03/2 - 07/2
 
 #### Exercise 6.1 - Completing Project 1
 
