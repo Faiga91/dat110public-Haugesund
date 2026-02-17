@@ -1,5 +1,3 @@
-### Lab Week 6: 10/2 - 14/2
-
 This exercise focuses on the Chord implementation of Distributed Hash Table (DHT). The aim is to use this exercise to further understand the concepts of name space, addressing, identifier, entities and scalable lookups in peer-to-peer distributed systems
 The current lab exercises provide implementations for testing the concept of naming, addressing, address space and size, and replication.
 The implementation contains a chord ring that is not dynamically linked together. Essential chord protocols (like join ring, stabilize ring, check predecessor, fix finger table, etc) have not been implemented. You can take this up as additional challenge.
